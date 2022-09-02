@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct  6 21:26:40 2020
-
-"""
 from tkinter import *
 from random import uniform 
 import tkinter as tk
