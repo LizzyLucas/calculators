@@ -4,11 +4,6 @@ from tkinter import ttk
 import math
 from random import uniform
 
-#Jose Estefania Estrada Aguilar
-#Elizabeth Lucas García
-#Inés del Carmen Gonzaléz Gonzaléz
-#Yamileth García Perez
-
 v = Tk()
 v.title("MONTECARLO - EJERCICIO3")
 v.geometry("700x400+300+10")
