@@ -2,17 +2,11 @@
 """
 Created on Tue Oct  6 21:26:40 2020
 
-@author: Fany
 """
 from tkinter import *
 from random import uniform 
 import tkinter as tk
 from tkinter import ttk
-
-#Jose Estefania Estrada Aguilar
-#Elizabeth Lucas García
-#Inés del Carmen Gonzaléz Gonzaléz
-#Yamileth García Perez
 
 root = tk.Tk()
 root.title("MÉTODO MONTECARLO: EJERCICIO 2")
