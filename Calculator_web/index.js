@@ -3,5 +3,12 @@ const displayValActual = document.getElementById('val-actual');
 const btnNumeros = document.querySelectorAll('.numero');
 const btnOperadores = document.querySelectorAll('.operador');
 
-const Calculadora = new Calculadora();
-console.log(Calculadora.sumar(2,3))
+const display = new Display(displayValorAnterior, displayValorActual);
+
+btnNumeros.forEach(boton => {
+    boton.addEventListener('click', () => display.agregarNumero(boton.innerHTML));
+});
+
+btnOperadores.forEach(boton => {
+    boton.addEventListener('click', () => display.computar(boton.value))
+});
